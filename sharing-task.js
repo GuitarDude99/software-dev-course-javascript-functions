@@ -37,6 +37,7 @@ reusable functions that solve specific tasks. This activity encourages:
 // 4. Return the result.
 
 
+<<<<<<< HEAD
 function badgeGenerator(name, role) {
     return `Name: ${name}, Role: ${role}`;
     ; 
@@ -45,6 +46,8 @@ function badgeGenerator(name, role) {
 console.log(badgeGenerator("Alice", "Speaker")); // Expected Output: "Name: Alice, Role: Speaker"
 
 
+=======
+>>>>>>> 79ee6f138b0f1d75af19e8f48119fac1614db745
 // ============================================
 // 🧩 Task 2: Calculate Event Cost
 // ============================================
@@ -59,6 +62,7 @@ console.log(badgeGenerator("Alice", "Speaker")); // Expected Output: "Name: Alic
 // 3. If so, apply a 10% discount.
 // 4. Return the final total.
 
+<<<<<<< HEAD
 function eventCost(attendees, costPerAttendee) {
    
     if (attendees > 100) {
@@ -68,6 +72,8 @@ function eventCost(attendees, costPerAttendee) {
 }
 
 console.log(eventCost(101, 20))
+=======
+>>>>>>> 79ee6f138b0f1d75af19e8f48119fac1614db745
 
 // ============================================
 // 🧩 Task 3: Validate Email
@@ -81,6 +87,7 @@ console.log(eventCost(101, 20))
 // 1. Check if the string includes both "@" and ".".
 // 2. Return true or false accordingly.
 
+<<<<<<< HEAD
 function validEmail (address) {
     if (address.includes("@") && address.includes(".")) {
         return true; console.log("Valid email address");
@@ -89,6 +96,8 @@ function validEmail (address) {
     }} 
 console.log(validEmail ("bob@test123.com")) // Expected Output: true
 
+=======
+>>>>>>> 79ee6f138b0f1d75af19e8f48119fac1614db745
 
 // ============================================
 // 🧠 Collaborative Steps
@@ -98,7 +107,11 @@ console.log(validEmail ("bob@test123.com")) // Expected Output: true
 // - Brainstorm function requirements: What inputs and outputs are needed?
 // - Assign roles within your team:
 //   ▸ Pseudocode Writer
+<<<<<<< HEAD
 //   ▸ Initial Coderpwd
+=======
+//   ▸ Initial Coder
+>>>>>>> 79ee6f138b0f1d75af19e8f48119fac1614db745
 //   ▸ Testers / Debuggers
 
 // 🛠️ Implementation Phase:
@@ -114,6 +127,7 @@ console.log(validEmail ("bob@test123.com")) // Expected Output: true
 // - Explain how your team approached the design and testing process
 
 // ✅ Bonus: Can you extend any of the functions to be more flexible or reusable?
+<<<<<<< HEAD
 
 
 //
@@ -123,3 +137,5 @@ function badgeGenerator(name, role) {
 };
 
 console.log(badgeGenerator("Alice", "Speaker")); // Expected Output: "Name: Alice, Role: Speaker"
+=======
+>>>>>>> 79ee6f138b0f1d75af19e8f48119fac1614db745
